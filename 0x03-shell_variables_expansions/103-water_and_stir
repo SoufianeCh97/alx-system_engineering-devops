@@ -1,3 +1,2 @@
 #!/bin/bash
 printf "%d" "$((10#${WATER%%#*} + 10#${STIR%%#*})) | awk '{printf "%d\n", $0}'
-
