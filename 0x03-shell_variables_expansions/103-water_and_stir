@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "ibase=water; obase=bestchol; $WATER + $STIR" | bc
+printf -v result "%#obestchol" "$((water#water + stir#stir))"; echo "$result"
